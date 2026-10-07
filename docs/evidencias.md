@@ -45,7 +45,7 @@ HTTP 200
 }
 ```
 
-![BUG-01](evidence/BUG-01-api.png)
+![BUG-01](BUG-01-api.png)
 
 ### Confirmação de pedido — quantidade 10 (achado exploratório)
 
@@ -114,7 +114,7 @@ HTTP 422
 }
 ```
 
-![BUG-02](evidence/BUG-02-api.png)
+![BUG-02](BUG-02-api.png)
 
 ---
 
@@ -126,7 +126,7 @@ Encontrado ao escrever a automação com Playwright (cenários `CUPOM-07b` e `AP
 
 Carrinho com subtotal de exatamente R$ 200,00 (2x "Mochila Urbana 20L"): o frete continua cobrado (R$ 19,90) e, ao mesmo tempo, a mensagem informa que faltam R$ 0,00 para o frete grátis — as duas informações se contradizem na mesma tela.
 
-![BUG-03](evidence/BUG-03-ui.png)
+![BUG-03](BUG-03-ui.png)
 
 ### Evidência na API
 
